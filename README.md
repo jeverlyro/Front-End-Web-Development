@@ -1,10 +1,10 @@
-<h1 align="center">UDL Project</h1>
+<h1 align="center">UDL CORP</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-UDL-brightgreen" alt="Project Badge">
 </p>
 
-<h2>Team Members (Kelompok ALPHA):</h2>
+<h2>Team Members :</h2>
 
 <ul>
   <li><b>I Kadek Tresna Jeverly</b></li>
@@ -16,5 +16,5 @@
 <hr>
 
 <p align="center">
-  <i>Made with ❤️ by Team ALPHA</i>
+  <i>Made with ❤️ by UDL</i>
 </p>
