@@ -16,5 +16,5 @@
 <hr>
 
 <p align="center">
-  <i>Made with ❤️ by UDL</i>
+  <i>UDL SOLID SOLID SOLID</i>
 </p>
