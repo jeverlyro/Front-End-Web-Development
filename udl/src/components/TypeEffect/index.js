@@ -1,5 +1,9 @@
 const TypeEffect = () => {
-  return <div>Type Effect</div>;
+  return (
+    <div>
+      <h1>Type Effect</h1>
+    </div>
+  );
 };
 
 export default TypeEffect;

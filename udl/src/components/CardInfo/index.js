@@ -6,7 +6,7 @@ import Logo from "../Logo";
 const CardInfo = () => {
   return (
     <div>
-      <h2>Card Info</h2>
+      <h1>Card Info</h1>
       <Evolution />
       <TypeEffect />
       <Logo />
