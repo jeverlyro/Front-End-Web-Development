@@ -7,9 +7,9 @@ const App = () => {
   return (
     <div>
       <h1>App.js</h1>
-      <Header />
-      <Home />
-      <Footer />
+      <Header text="Tes 123" />
+      <Home text="Home using props" />
+      <Footer text="Footer using props" />
     </div>
   );
 };

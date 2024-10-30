@@ -2,10 +2,10 @@ import React from "react";
 import CardInfo from "../CardInfo";
 import Search from "../Search";
 
-const Home = () => {
+const Home = ({ text }) => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>{text}</h1>
       <CardInfo />
       <Search />
     </div>
