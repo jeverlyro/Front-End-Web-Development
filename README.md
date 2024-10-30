@@ -4,54 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UDL CORP - Front End Project</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2 {
-      color: #0056b3;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      font-weight: bold;
-      margin: 5px 0;
-    }
-    .feature-list, .tech-list {
-      list-style: disc;
-      padding-left: 20px;
-    }
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 10px 0;
-      font-size: 16px;
-      color: #fff;
-      background-color: #0056b3;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .button:hover {
-      background-color: #004080;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
