@@ -8,8 +8,8 @@ const App = () => {
     <div>
       <h1>App.js</h1>
       <Header text="Tes 123" />
-      <Home />
-      <Footer />
+      <Home text="Home using props" />
+      <Footer text="Footer using props" />
     </div>
   );
 };
