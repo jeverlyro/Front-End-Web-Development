@@ -1,9 +1,7 @@
-const TypeEffect = () => {
-  return (
-    <div>
-      <h1>Type Effect</h1>
-    </div>
-  );
-};
+import React from "react";
+
+function TypeEffect({ effect }) {
+  return <div>{effect}</div>;
+}
 
 export default TypeEffect;
