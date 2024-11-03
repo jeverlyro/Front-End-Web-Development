@@ -6,7 +6,7 @@ const Header = ({ text }) => {
   return (
     <div>
       <h1>{text}</h1>
-      <Generations />
+      <Generations text="Generations using props" />
       <Logo2 />
     </div>
   );
