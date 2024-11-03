@@ -3,10 +3,10 @@ import Evolution from "../Evolution";
 import TypeEffect from "../TypeEffect";
 import Logo from "../Logo";
 
-const CardInfo = () => {
+const CardInfo = ({text}) => {
   return (
     <div>
-      <h1>Card Info</h1>
+      <h1>{text}</h1>
       <Evolution />
       <TypeEffect />
       <Logo />

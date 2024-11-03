@@ -2,12 +2,12 @@ import React from "react";
 import Generations from "../Generations";
 import Logo2 from "../Logo2";
 
-const Header = () => {
+const Header = ({ text }) => {
   return (
     <div>
-      <h1>Header</h1>
-      <Generations />
-      <Logo2 />
+      <h1>{text}</h1>
+      <Generations text="Generations using props" />
+      <Logo2 text="Logo2 using props" />
     </div>
   );
 };
