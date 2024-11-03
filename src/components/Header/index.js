@@ -7,7 +7,7 @@ const Header = ({ text }) => {
     <div>
       <h1>{text}</h1>
       <Generations text="Generations using props" />
-      <Logo2 />
+      <Logo2 text="Logo2 using props" />
     </div>
   );
 };

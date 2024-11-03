@@ -6,8 +6,8 @@ const Home = ({ text }) => {
   return (
     <div>
       <h1>{text}</h1>
-      <CardInfo />
-      <Search />
+      <CardInfo text="CardInfo using props"/>
+      <Search text="Search using props"/>
     </div>
   );
 };

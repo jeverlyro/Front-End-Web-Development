@@ -1,8 +1,6 @@
-const Search = () => {
+const Search = ({ text }) => {
   return (
-    <div>
-      <h1>Search</h1>
-    </div>
+      <h1>{text}</h1>
   );
 };
 
