@@ -1,8 +1,6 @@
-const Logo2 = () => {
+const Logo2 = ({ text }) => {
   return (
-    <div>
-      <h1>Logo2</h1>
-    </div>
+      <h1>{text}</h1>
   );
 };
 
