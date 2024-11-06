@@ -1,5 +1,5 @@
-function Logo({ title }) {
-  return <div>{title}</div>;
-}
+const Logo = ({ text }) => {
+  return <h1>{text}</h1>;
+};
 
 export default Logo;

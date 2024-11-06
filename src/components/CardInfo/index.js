@@ -1,15 +1,16 @@
 import React from "react";
-import Evolution from "./Evolution";
-import TypeEffect from "./TypeEffect";
-import Logo from "./Logo";
+import Evolution from "../Evolution";
+import TypeEffect from "../TypeEffect";
+import Logo from "../Logo";
 
-const CardInfo = () => {
+const CardInfo = ({ Text }) => {
   return (
-    <div>
-      <Evolution description="Evolution" />
-      <TypeEffect effect="Type Effect" />
-      <Logo title="Logo" />
-    </div>
+    <>
+      <h1>{Text}</h1>
+      <Evolution text="Evolution" />
+      <TypeEffect text="Type Effect" />
+      <Logo text="Logo" />
+    </>
   );
 };
 
