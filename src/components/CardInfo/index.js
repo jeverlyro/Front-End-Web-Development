@@ -3,7 +3,7 @@ import Evolution from "./Evolution";
 import TypeEffect from "./TypeEffect";
 import Logo from "./Logo";
 
-function CardInfo() {
+const CardInfo = () => {
   return (
     <div>
       <Evolution description="Evolution" />
@@ -11,6 +11,6 @@ function CardInfo() {
       <Logo title="Logo" />
     </div>
   );
-}
+};
 
 export default CardInfo;
